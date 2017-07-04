@@ -1,0 +1,111 @@
+@keyframes ck1x {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes ck2x {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+@keyframes ss1 {
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes move_1 {
+    0%{
+        transform: translateY(-1rem);
+    }
+    50%{transform: translateY(2.5rem);}
+    75%{transform: translateY(4rem);}
+    100%{
+        transform: translateY(6.5rem);
+    }
+}
+@keyframes xs {
+    0%{transform: translateY(6.5rem)rotateZ(-1deg);}
+    50%{transform: translateY(4rem)rotateZ(-2deg);}
+    75%{transform: translateY(2.5rem)rotateZ(-4deg);}
+    100%{transform: translateY(0rem)rotateZ(-5deg);}
+}
+@keyframes name {
+    0%{transform: translateX(-100%);}
+    25%{transform: translateX(-75%);}
+    50%{transform: translateX(-50%);}
+    75%{transform: translateX(-25%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes oumei {
+    0%{transform: translateX(100%)}
+    25%{transform: translateX(75%)}
+    50%{transform: translateX(50%)}
+    75%{transform: translateX(25%)}
+    100%{transform: translateX(0%)}
+}
+@keyframes work {
+    0%{transform: translateY(100%);opacity: 0}
+    25%{transform: translateY(75%);opacity: 0.25}
+    50%{transform: translateY(50%);opacity: 0.5}
+    75%{transform: translateY(25%);opacity: 0.75}
+    100%{transform: translateY(0%);opacity: 1}
+}
+@keyframes zj-1 {
+    0%{transform: translateY(-100%) rotateZ(0deg);opacity: 0}
+    25%{transform: translateY(-75%) rotateZ(12deg);opacity: 0.25}
+    50%{transform: translateY(-50%) rotateZ(24deg);opacity: 0.5}
+    75%{transform: translateY(-25%) rotateZ(36deg);opacity: 0.75}
+    100%{transform: translateY(0%) rotateZ(45deg);opacity: 1}
+}
+@keyframes am-1 {
+    0%{transform: translateX(100%) rotateZ(5deg);}
+    25%{transform: translateX(75%) rotateZ(10deg);}
+    50%{transform: translateX(50%) rotateZ(15deg);}
+    75%{transform: translateX(25%) rotateZ(20deg);}
+    100%{transform: translateX(0%) rotateZ(25deg);}
+}
+@keyframes sf {
+    0%{transform:scale(0.2);opacity: 0;}
+    25%{transform:scale(0.4);opacity: 0.25;}
+    50%{transform:scale(0.6);opacity: 0.5;}
+    75%{transform:scale(0.8);opacity: 0.75;}
+    100%{transform:scale(1);opacity: 1;}
+}
+@keyframes ren_1 {
+    0%{transform:rotate(0deg)}
+    20%{transform:rotate(-90deg)}
+    50%{transform:rotate(-180deg)}
+    70%{transform:rotate(-270deg)}
+    100%{transform:rotate(-360deg)}
+}
+@keyframes wu {
+    0%{transform: translateX(-100%);}
+    25%{transform: translateX(-75%);}
+    50%{transform: translateX(-50%);}
+    75%{transform: translateX(-25%);}
+    100%{transform: translateX(0%);}
+}
+@keyframes jing {
+    0%{transform: translateX(100%)}
+    25%{transform: translateX(75%)}
+    50%{transform: translateX(50%)}
+    75%{transform: translateX(25%)}
+    100%{transform: translateX(0%)}
+}
+/*@keyframes move_1 {*/
+    /*0%{transform: translateY(-0.2rem);}*/
+    /*/!*25%{transform: translateY(-0.4rem);}*!/*/
+    /*50%{transform: translateY(-0.01rem);}*/
+    /*/!*75%{transform: translateY(-0.2rem);}*!/*/
+    /*100%{*/
+
+    /*}*/
+/*}*/

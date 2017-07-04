@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script type="text/javascript" src="js/fontsize.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="transtion-my">
+        <div class="big">
+            <div class="diao">
+                <img src="images/big1_01.png" class="ong-div-1">
+                <img src="images/big2_02.png" class="ong-div-2">
+                <p>个人简历</p>
+            </div>
+
+            <img src="images/hand-ok2.png" class="ren">
+            <img src="images/flash.png" class="x1">
+            <img src="images/flash.png" class="x2">
+            <img src="images/flash.png" class="x3">
+            <img src="images/flash.png" class="x4">
+            <img src="images/flash.png" class="x5">
+        </div>
+    </div>
+    <div class="transtion-my down">
+        <div class="tow">
+            <img src="images/mao.gif" class="two-div-1">
+            <p class="shi"><img src="images/name-1_02.png"></p>
+            <p class="wu"><img src="images/oumei-1_03.png"></p>
+            <p class="qi"><img src="images/work-1_03.png"></p>
+            <p class="ba"><img src="images/class-1_03.png"></p>
+        </div>
+    </div>
+    <div class="transtion-my down">
+        <div class="three">
+            <img src="images/zj-llove.jpg" class="zj-1">
+            <p>
+                本人性格开朗、稳重、有活力、待人热情真诚，做事认真负责积极主动，能吃苦耐劳。喜欢思考，虚心与人交流，以取长补短。
+                有较强的组织能力、实际动手能力和团体协作精神，能迅速的适应各种环境，并融合其中。
+            </p>
+            <img src="images/am1-1.png" class="am-1">
+        </div>
+    </div>
+    <div class="transtion-my down">
+        <div class="four">
+            <img src="images/yyah-1_02.png" class="yyah">
+            <div class="four-div clearfix">
+                <p>
+                    <img src="images/ren_02.png">
+                </p>
+                <div>
+                    <img src="images/ren.jpg" id="ren">
+                </div>
+            </div>
+            <div class="four-div2 clearfix">
+                <div>
+                    <img src="images/wu.jpg" id="wu">
+                </div>
+                <p>
+                    <img src="images/wu_02.png">
+                </p>
+            </div>
+            <div class="four-div3 clearfix">
+                <p>
+                    <img src="images/jing_02.png">
+                </p>
+                <div>
+                    <img src="images/jing.jpg" id="jing">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="transtion-my down">
+        <div class="five">
+            <img src="images/lx_03.png" >
+            <img src="images/QQ_03.png" >
+            <img src="images/phone_03.png" >
+            <img src="images/ip_03.png" >
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script>
+    var i=0;
+    $(".container>div").eq(i).siblings().children().addClass("yincang");
+    $(".container").swipeUp(function(){
+        if(i<4)
+        {
+            $(".container>div").eq(i).addClass("up");
+            $(".container>div").eq(i).children().addClass("yincang")
+            i++
+            $(".container>div").eq(i).children().removeClass("yincang")
+            $(".container>div").eq(i).removeClass("down")
+        }
+    })
+
+    $(".container").swipeDown(function(){
+        if(i>0){
+            $(".container>div").eq(i).addClass("down")
+            $(".container>div").eq(i).children().addClass("yincang")
+            i=i-1
+            $(".container>div").eq(i).children().removeClass("yincang")
+            $(".container>div").eq(i).removeClass("up")
+        }
+
+    })
+
+</script>
+</html>

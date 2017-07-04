@@ -1,0 +1,248 @@
+*{padding: 0;margin: 0;}
+html,body{width: 100%;height: 100%}
+.container{width: 100%;height: 100%;position: relative;overflow: hidden;}
+.container>div{width: 100%;height: 100%;position: absolute;top:0;}
+
+.yincang{display: none;}
+.xianshi{display: block;}
+.transtion-my{transition: transform 0.5s linear}
+.up{transform: translateY(-100%)}
+.down{transform: translateY(100%)}
+.container>div:nth-child(1){background-color: #092631;}
+
+.big{width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.diao{
+    animation: move_1 1s linear;
+}
+.ong-div-1{
+    position: absolute;
+    top:50%;
+    margin-top: -85%;
+    width: 100%;
+    animation: ck1x 4s linear infinite ;
+    z-index: 3;
+}
+.ong-div-2{
+    position: absolute;
+    top:50%;
+    margin-top: -85%;
+    width: 100%;
+    animation: ck2x 6s linear infinite ;
+    z-index:3 ;
+}
+.ren{
+    position: absolute;
+    width: 100%;
+    top:42%;
+    left: 2%;
+    z-index: 1;
+    transform: rotateZ(-5deg);
+    animation: xs 1s linear;
+}
+.big p{position: absolute;left: 50%;margin-left: -32%;top:50%;
+    margin-top: -45%;z-index: 3;
+}
+.x1{
+    position: absolute;
+    top:2%;
+    left: 5%;
+    width: 15%;
+    animation: ss1 3s linear infinite;
+}
+.x2{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 15%;
+    animation: ss1 2s linear infinite;
+}
+.x3{
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+    width: 20%;
+    animation: ss1 1.5s linear infinite;
+}
+.x4{
+    position: absolute;
+    bottom: 24%;
+    left: 7%;
+    width: 20%;
+    animation: ss1 2s linear infinite;
+}
+.x5{
+    position: absolute;
+    bottom: 16%;
+    right: 10%;
+    width: 28%;
+    animation: ss1 4s linear infinite;
+}
+.container>div:nth-child(2)>div{
+    background: url("../images/qx-3.jpg") ;
+    background-position: 30%;
+}
+.two-div-1{
+   width: 100%;
+}
+.container>div:nth-child(2)>div p{
+    width: 100%;
+}
+.container>div:nth-child(2)>div>p img{
+    width: 100%;
+}
+.shi>img{
+    animation: name 3s linear;
+}
+.wu>img{
+
+    animation: oumei 5s linear;
+    /*opacity: 0;*/
+
+}
+.qi img{animation: work 3s linear;}
+.ba img{animation: work 4s 0.3s linear;}
+
+.container>div:nth-child(3)>div{
+    transform-style: preserve-3d;
+    width: 100%;
+    height: 100%;
+    background: url("../images/qx-1.jpg") ;
+    overflow: hidden;
+}
+.zj-1{
+    margin-left: 9%;
+    margin-top: -15%;
+    width: 3.5rem;
+    height: 4.6rem;
+    transform: rotateZ(45deg);
+    animation: zj-1 1.5s linear;
+}
+.three p{
+    z-index: 3;
+    margin-top: 0.1rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -30%;
+    width: 60%;
+    font:0.4rem »ªÎÄÐÐ¿¬;
+    animation: sf 1.5s linear;
+}
+
+.am-1
+{
+    position: absolute;
+    bottom: 0;
+    right: 0.05rem;
+    width: 40%;
+    height: 25%;
+    z-index: 2;
+    transform: rotateZ(25deg);
+    animation: am-1 1.5s linear;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    background: url("../images/qx-1.jpg");
+}
+.zj-2{
+    width: 100%;
+    height:50%;
+}
+
+.clearfix::after,clearfix::before{
+    content: "";
+    display: block;clear: both;
+}
+.four-div{
+    margin-top: 0.15rem;
+}
+.container>div:nth-child(4)>div p{
+    width: 35%;
+}
+.four-div p>img,.four-div2 p>img,.four-div3 p>img{
+    width: 100%;
+}
+.four-div p{
+    margin-top: 0.4rem;
+    float: left;
+    margin-right: 0.5rem;
+}
+.four-div div{
+    width: 55%;
+    height: 3rem;
+    float: left;
+    overflow: hidden;
+    animation: ren_1 1.5s linear;
+    transform-origin: 100% 0;
+}
+.four-div2{margin-top: 0.03rem}
+.four-div2 p{
+    margin-top: 0.4rem;
+    float: left;
+    margin-left: 0.5rem;
+}
+.four-div2 div{
+    width: 55%;
+    height: 3rem;
+    float: left;
+    overflow: hidden;
+    animation: wu 1.5s linear;
+}
+.four-div3{margin-top: 0.03rem}
+.four-div3 p{
+    margin-top: 0.4rem;
+    float: left;
+    margin-right: 0.5rem;
+}
+.four-div3 div{
+    width: 55%;
+    height: 3rem;
+    float: left;
+    overflow: hidden;
+    animation: jing 1.5s linear;
+}
+/*.container>div:nth-child(4)>div>p img{*/
+    /*width: 100%;*/
+/*}*/
+.yyah{width: 100%}
+
+#ren{
+    width: 100%;
+}
+#wu{
+    width: 100%;
+    height: 100%;
+}
+#jing{
+    width: 100%;
+    height: 100%;
+}
+.container>div:nth-child(5){
+
+    background: url("../images/shu.jpg");
+    background-position: 20% 0;
+}
+.five {
+    width: 100%;
+    height: 100%;
+    margin-top: 80%;
+}
+.five img{
+    width: 85%;
+}
+.five img:nth-child(1){
+    animation: name 2.5s linear;
+}
+.five img:nth-child(2){
+    animation: oumei 2s linear;
+}
+.five img:nth-child(3){
+    animation: name 2s linear;
+}
+.five img:nth-child(4){
+    animation: work 2.5s linear;
+}
